@@ -6,7 +6,7 @@
  * - Set up the module parameters
  */
 
-#include <asm/unaligned.h>
+#include <linux/unaligned.h>
 #include <linux/module.h>
 #include "veikk.h"
 
@@ -227,3 +227,4 @@ const struct hid_device_id veikk_ids[] = {
     {}
 };
 MODULE_DEVICE_TABLE(hid, veikk_ids);
+
